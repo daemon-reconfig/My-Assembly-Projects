@@ -9,6 +9,6 @@ _start:
     sub eax, ebx
     mov [num1], eax
     mov eax, 1
-    mov ebx, 0
+    xor ebx, ebx
     int 80h
     
